@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PaymentPage</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Oswald:wght@200&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+        *{
+        font-family: 'Roboto', sans-serif;
+      }
+            #ssense{
+            text-decoration: none;
+            color: black;
+        }
+        #payment{
+             width: 800px;
+             margin: auto;
+             margin-top: 60px;
+        }     
+        input{
+            height: 30px;
+        }
+
+        #fle{
+            display: flex;    
+        }
+
+        #mar{
+            margin-right: 180px;
+        }
+
+        #wid{
+            width:180%;   
+        }
+        #widll{
+            width:180%;   
+        }
+        #widlll{
+            width:180%;   
+        }
+        #wid2{
+            width:280%;
+            height: 35px;
+        }
+        
+        #wid3{
+            margin-left: 50px;
+            height: 35px;
+            width: 180px;
+        }
+        #mar4{
+            margin-left: 72px;
+            font-size: 13.5px;
+            color:rgb(63, 61, 61)
+        }
+        #hei2{
+            height: 18px;
+            margin-top: 12px;
+        }
+        #hei3{
+            height: 30px;
+        }
+        #hei4{
+            height: 30px;
+          
+        }
+        #font1{
+            font-size: 14px;
+            margin-left: 5px;
+            color:rgb(63, 61, 61)
+        }
+        #flex2{
+            display: flex; 
+        }
+        #left2{
+            margin-top: 5px;
+            margin-left: 10px;
+        }
+        #left3{
+            margin-top: 10px;
+            margin-left: 10px; 
+        }
+        #widtl{
+            width:55%;
+        }
+        #widtll{
+            width:55%;
+        }
+        #but{
+            background-color: black;
+            color: white;
+            height: 35px;
+            width: 40%;
+            margin: auto;
+            margin-top: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #colo{
+           font-size: 15px;
+           color:rgb(63, 61, 61);
+        }
+         #col3{
+            font-size: 13.5px;
+            color:rgb(63, 61, 61);
+         }
+         #web{
+              font-size:25px ;
+              position: relative;
+              font-family:'Roboto', sans-serif ;
+              width: 10%;
+              margin: auto;
+              font-weight: bold;
+              cursor: default;  
+         }
+         #site{
+             position: fixed;
+            margin-top: -50px;
+         }
+       
+    </style>
+</head>
+<body>
+    <!-- nabar section  -->
+
+            <div id="web"><p id="site"> <a id="ssense" href="mainPage.html">SSENSE</a> </p></div>
+       
+     <!-- payment section  -->
+
+     <div id="payment">
+         
+         <p id="colo">CHECKOUT</p>
+         <p id="colo">SHIPPING ADDRESS</p>
+         <hr>
+         
+            <div id="fle">
+                <div id="mar">
+                <p id="col3">First Name</p>
+                <input id="wid" type="text">
+                </div>
+                <div id="mar">
+                <p id="col3">Last Name</p>
+                <input id="wid" type="text">
+                </div>
+            </div>
+            <div id="fle">
+                <div id="mar">
+                <p id="col3">Street Address</p>
+                <input id="wid" type="text">
+                </div>
+                <div id="mar">
+                <p id="col3">Company (Optional)</p>
+                <input id="wid" type="text">
+                </div>
+            </div>
+            <div id="fle">
+                <div id="mar">
+                <p id="col3">City</p>
+                <input id="wid" type="text">
+                </div>
+                <div id="mar">
+                <p id="col3">ZIP Or Postal Code</p>
+                <input type="number">
+                </div>
+            </div>
+            <div id="fle">
+             <div id="mar"> 
+                <p id="col3">Country/Region</p>
+             <select id="wid2" name="">
+                 <option value="">Select</option>
+                 <option value="">India</option>
+                 <option value="">Canada</option>
+                 <option value="">United States</option>
+                 <option value="">China</option>
+                 <option value="">Japan</option>
+                 <option value="">Afghanistan</option>
+                 <option value="">Albania</option>
+                 <option value="">France</option>
+                 <option value="">Japan</option>
+                 <option value="">Iraq</option>
+                 <option value="">Swizerland</option>
+                 <option value="">Turkey</option>
+                 <option value="">Russia</option>
+                 <option value="">Nepal</option>
+                 <option value="">Bangladesh</option>
+                 <option value="">Sri Lanka</option>
+                 <option value="">South Korea</option>
+                 <option value="">South Africa</option>
+                 <option value="">Italy</option>
+             </select>
+            </div>
+             <div id="mar">
+             <p id="mar4">State/Province</p>
+            <select id="wid3" name="" >
+                <option value="">Select</option>
+                <option value="">Andhra Pradesh</option>
+                <option value="">Arunachal Pradesh</option>
+                <option value="">Bihar</option>
+                <option value="">Chhattisgarh</option>
+                <option value="">Goa</option>
+                <option value="">Gujarat</option>
+                <option value="">Haryana</option>
+                <option value="">Himachal Pradesh</option>
+                <option value="">Jharkhand</option>
+                <option value="">Karnataka</option>
+                <option value="">Kerala</option>
+                <option value="">Assam</option>
+                <option value="">Madhya Pradesh</option>
+                <option value="">Maharashtra</option>
+                <option value="">Manipur</option>
+                <option value="">Meghalaya</option>
+                <option value="">Mizoram</option>
+                <option value="">Nagaland</option>
+                <option value="">Odisha</option>
+                <option value="">Punjab</option>
+                <option value="">Rajasthan</option>
+                <option value="">Sikkim</option>
+                <option value="">Tamil Nadu</option>
+                <option value="">Telangana</option>
+                <option value="">Tripura</option>
+                <option value="">Uttarakhand</option>
+                <option value="">Uttar Pradesh</option>
+                <option value="">West Bengal</option>
+                <option value="">Andaman and Nicobar</option>
+                <option value="">Lakshadweep</option>
+                <option value="">Jammu & Kashmir</option>
+            </select>
+        </div>
+    </div>
+            <div>
+                <p id="col3">Phone</p>
+                <input type="number">
+            </div>
+            
+        
+         <p id="colo">SHIPPING METHOD</p>
+         <hr>
+         <div id="flex2">
+         <div><img id="hei2" src="https://cdn.iconscout.com/icon/free/png-64/circle-182-460373.png" alt=""> </div>
+         <div> <p id="font1"> $0.00 USD | 5-7 days</p></div>
+        </div>
+         <p id="colo">PAYMENT METHOD</p>
+         <hr>
+         <div id="flex2">
+         <div><img id="hei2" src="https://cdn.iconscout.com/icon/free/png-64/circle-182-460373.png" alt=""></div>
+         <div><p id="font1" >Pay with debit card and credit card</p></div>
+         <div id="left2" ><img  id="hei4" src="https://res.cloudinary.com/ssenseweb/image/upload/v1535478719/web/checkout/visa_borderless_v2.svg" alt=""></div>
+         <div  id="left3" class="top2" ><img  src="https://res.cloudinary.com/ssenseweb/image/upload/v1535478719/web/checkout/mastercard_borderless_v2.svg" alt=""></div>
+         </div>
+         <div id="flex2">
+         <div><img id="hei2" src="https://cdn.iconscout.com/icon/free/png-64/circle-thin-stroke-round-44590.png" alt=""></div>
+         <div> <p id="font1">Pay with PayPal</p></div>
+         <div id="left3"><img src="https://res.cloudinary.com/ssenseweb/image/upload/v1535478719/web/checkout/paypal_borderless_v2.svg" alt=""></div>
+         </div>
+         <div id="flex2">
+         <div> <img id="hei2" src="https://cdn.iconscout.com/icon/free/png-64/circle-thin-stroke-round-44590.png" alt=""></div>
+         <div><p id="font1"> Pay with Alipay</p></div>
+         <div id="left3"><img src="https://res.cloudinary.com/ssenseweb/image/upload/v1535478719/web/checkout/alipay_borderless_v2.svg" alt=""></div>
+         </div>
+
+         <p id="colo">CARD DETAILS</p>
+         <hr>
+         <div id="flex2">
+             <div id="mar">
+                 <p id="col3">Card number</p>
+                 <input id="widlll" type="number" placeholder=" 1234 1234 1234 1234">
+            </div>
+             <div >
+                 <p id="col3">Expiration date</p>
+                 <input  id="widtl" type="number" placeholder="MM / YY">
+            </div>
+         </div>
+         <div id="flex2">
+            <div id="mar">
+                <p id="col3">Cardholder's name</p>
+                <input id="widll" type="text" >
+           </div>
+            <div >
+                <p id="col3">Security code</p>
+                <input  id="widtll" type="password" placeholder="CVV">
+           </div>
+        </div>
+      
+        <div id="but"><p>PLACE ORDER</p></div>
+
+     </div>
+     
+
+
+    <!-- fotter section  -->
+
+    <div id="footer">
+        <div>
+            <a class="anc" href="">COUNTRY/REGION:INDIA</a>
+            <a class="anc" href="">NEWSLETTER SIGNUP</a>
+            <a class="anc" href="">CUSTOMER CARE</a>
+            <a class="anc" href="">LOCATION</a>
+            <a class="anc" href="">EDITORIAL ARCHIVE</a>
+            <a class="anc" href="">CAREERS</a>
+            <a class="anc" href="">AFFILIATES</a>
+            <a class="anc" href="">SITEMAP</a>
+        </div>
+        <div>
+            <div>
+             <a class="a" href="">@2022 ssense.com</a>
+             <a class="a" href="">Terms & Conditions</a>
+             <a class="a" href="">Privacy Policy</a>
+             <a class="a" href="">Cookies</a>
+             <a class="a" href="">Accesibility</a>
+            </div>                 
+            <div>
+                 <div>
+                     <a class="anc" href="#"><i class="fa fa-fw fa-facebook"></i></a>
+                     <a class="anc" href="#"><i class="fa fa-fw fa-twitter"></i></a>
+                     <a class="anc" href="#"><i class="fa fa-fw fa-instagram"></i></a>
+                     <a class="anc" href="#"><i class="fa fa-fw fa-youtube"></i></a>
+                 </div>
+    
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+<script>
+    document.querySelector("#but").addEventListener("click",mypla)
+
+    function mypla(){
+
+        var carn=document.querySelector("#widlll").value
+        var expida=document.querySelector("#widtl").value
+        var cvp=document.querySelector("#widtll").value
+        var a=document.querySelector("#wid").value
+        var b=document.querySelector("#wid2").value
+        var c=document.querySelector("#wid3").value
+        
+        if(carn=="" || expida=="" || cvp=="" ){
+            alert("Enter all the given details correctly")
+        }
+        else{          
+            alert("Payment Continue by sending OTP")
+            window.location.href="otp.html"
+        }
+    }
+</script>

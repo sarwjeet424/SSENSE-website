@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CartPage</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Oswald:wght@200&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="cartfull.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+  
+   
+  
+  
+  
+  
+  <style>
+      *{
+        font-family: 'Roboto', sans-serif;
+      }
+            #ssense{
+            text-decoration: none;
+            color: black;
+        }
+        #nav{
+            display: flex;
+        }
+        #items,#text{
+            display: flex;
+            height:40px;
+            width:40%;
+            font-size: 11px;
+            justify-content: space-around;
+            align-items: center;
+            font-family: 'Roboto', sans-serif;
+            margin-left: 3%;
+            margin-right: 3%;
+        }
+        #brand{
+            width:30%;
+            height:40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size:15px;
+            font-family: 'Roboto', sans-serif;
+        }
+        a{
+            text-decoration: none;
+            font-weight: bold;
+            color: rgb(100, 95, 95);
+        }
+        
+        #carttitle{
+            display: flex;
+            height: 50px;
+           
+            
+        }
+        #cartbig{
+              display: grid;
+              grid-template-columns: repeat(2,1fr);
+              gap: 45%;
+              margin-top: 40px;
+        }
+        #cartp{
+            background-color:black;
+            height: 35px;
+            width: 80%;
+            font-size: 12px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        #apay{
+            color: rgb(235, 227, 227);
+        }
+        #cartp3{
+            color: gray;
+            
+        }
+        #cartp1{
+            font-size: 12px;
+        }
+        #cartp2{
+             font-size: 12px; 
+             
+        }
+        #cartp3{
+            font-size: 12px; 
+           
+        }
+     
+        #cartt1{
+            font-size: 12px;
+            border:1px solid white;
+            width: 15%;
+            
+        }
+        #cartt2{
+            font-size: 12px;
+            border:1px solid white;
+            color:gray;
+            display: flex;
+            align-items: flex-end;
+            
+        }
+        #cartt3{
+            font-size: 12px;
+            border:1px solid white;
+            margin-left: 75%;
+            color:gray;
+            display: flex;
+            align-items: flex-end;
+        }
+        #carttid{
+            border: 1px solid white; 
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+            margin-left: 40%;
+            margin-right: -130%; 
+            /* height: auto; */
+        }
+        #fle1{
+            display: flex;
+            
+            
+        }
+        #imags{
+            width: 15%;
+           
+        }
+        #desc{
+            width: 70%;
+            font-size: 12px;
+        }
+        #rad{
+            width:10%;
+            font-size: 12px;
+        }
+        #na4{
+            text-decoration:underline;
+            margin-top: 50px;
+            
+        }
+        #remov{
+            text-decoration:underline;
+            margin-top: 85px;
+            font-size: 12px;
+            color: rgb(66, 62, 62);
+        }
+        #na3{
+            font-size: 11px;
+            margin-bottom: 30px;
+            margin-top: -10px;
+            
+        }
+        #na2{
+            margin-top: -10px;
+        }
+        #imag{
+          width: 90%;
+          height: 90%;
+        }
+        #rate1{
+            color: rgb(70, 67, 67);
+        }
+        #flex4{
+            display: flex;
+
+        }
+        #fir1{
+            width: 15%;
+        }
+        #fir2{
+            width: 70%;
+            font-size: 13px;
+            
+        }
+        #fir3{
+            width: 12%;
+            font-size: 12px;
+            
+        }
+        #margt2{
+            margin-top: -10px;
+            color: rgb(70, 67, 67);
+        }
+        #margt3{
+            margin-top: -10px;
+            color: black;
+            font-weight: bold;
+        }
+        #margt1{
+            color: rgb(66, 62, 62);
+        }
+        /* #footer{
+            margin-top: 400px;
+        }
+         */
+      #flex4{
+          margin-bottom: 100px;
+      }
+
+    </style>
+</head>
+<body>
+    <!-- navbar section -->
+
+    <div id="nav">
+        <div id="items">
+            <a class="a" href="mensPage.html">MENSWEAR</a>
+            <a class="a" href="womensPage.html">WOMENSWEAR</a>
+            <a class="a" href="">EVERYTHING ELSE</a>
+            <a class="a" href="">SEARCH</a>
+        </div>
+        <div id="brand">
+            <h1 > <a id="ssense" href="mainPage.html">SSENSE</a> </h1>
+        </div>
+        <div id="text">
+            <a class="a" href="">ENGLISH</a>
+            <a class="a" href="signup.html">LOGIN</a>
+            <a class="a" href="">WISHLIST</a>
+            <a class="a" href="cartfull.html">SHOPPING BAG(0)</a>
+        </div>
+    </div>
+    <!-- cart section -->
+
+    <div id="cartbig">
+        <div id="carttid" >
+            <!-- upper row -->
+
+            <div id="carttitle">
+                <div id="cartt1" >SHOPPING BAG</div>
+                <div id="cartt2" >ITEM</div>
+                <div id="cartt3" >TOTAL</div>
+            </div>
+            <div ><hr></div>
+            <!-- middle row -->
+
+            <div id="fl">
+              
+            </div>
+           <!-- lower row -->
+
+            <div id="flex4">
+                <div id="fir1"></div>
+                <div id="fir2">
+                  <p  id="margt1">Total</p>
+                  <p id="margt2">Shipping estimate</p>
+                  <p  id="margt3">Order Total</p>
+                </div>
+                <div id="fir3">
+
+                </div>
+            </div>
+            
+            <!-- checkout section  -->
+
+        </div>
+       
+        <div id="cartpay">
+            <p id="cartp1" >LOGGED IN AS</p>
+            <p id="cartp2" ></p>
+            <p id="cartp3" >Not your account?Sign in as another user</p>
+            <div id="cartp"><a id="apay" href="payment.html">PROCEED TO CHECKOUT</a></div>
+        </div>
+    </div>
+
+    <!-- footer section -->
+    
+    <div id="footer">
+        <div>
+            <a class="anc" href="">COUNTRY/REGION:INDIA</a>
+            <a class="anc" href="">NEWSLETTER SIGNUP</a>
+            <a class="anc" href="">CUSTOMER CARE</a>
+            <a class="anc" href="">LOCATION</a>
+            <a class="anc" href="">EDITORIAL ARCHIVE</a>
+            <a class="anc" href="">CAREERS</a>
+            <a class="anc" href="">AFFILIATES</a>
+            <a class="anc" href="">SITEMAP</a>
+        </div>
+        <div>
+            <div>
+             <a class="a" href="">@2022 ssense.com</a>
+             <a class="a" href="">Terms & Conditions</a>
+             <a class="a" href="">Privacy Policy</a>
+             <a class="a" href="">Cookies</a>
+             <a class="a" href="">Accesibility</a>
+            </div>                 
+            <div>
+                 <div>
+                     <a class="anc" href="#"><i class="fa fa-fw fa-facebook"></i></a>
+                     <a class="anc" href="#"><i class="fa fa-fw fa-twitter"></i></a>
+                     <a class="anc" href="#"><i class="fa fa-fw fa-instagram"></i></a>
+                     <a class="anc" href="#"><i class="fa fa-fw fa-youtube"></i></a>
+                 </div>
+    
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
+
+<script>
+ 
+
+    var array =  JSON.parse(localStorage.getItem("tocartpage"))
+   
+    
+    // var ema= document.querySelector("#cartp2")
+    // ema.innerText=userData.email
+
+    array.forEach(function(element){
+
+        var p=document.createElement("div")
+        p.setAttribute("id","fle1")
+        var f=document.createElement("div")
+        f.setAttribute("id","imags")
+        var g=document.createElement("div")
+        g.setAttribute("id","desc")
+        var h=document.createElement("div")
+        h.setAttribute("id","rad")
+
+        var r=document.createElement("div")
+        var s=document.createElement("hr")
+        
+        var i=document.createElement("img")
+        i.setAttribute("id","imag")
+         i.src=element.image_url
+        var j=document.createElement("p")
+        j.setAttribute("id","na1")
+        j.innerText=element.name
+         var k=document.createElement("p")
+         k.setAttribute("id","na2")
+         k.innerText=element.description
+         var l=document.createElement("p")
+         l.setAttribute("id","na3")
+         l.innerText="FREE SIZE"
+         var m=document.createElement("p")
+         m.setAttribute("id","na4")
+         m.innerText="Move to Whislist"
+         var n=document.createElement("p")
+         n.setAttribute("id","rate1")
+         n.innerText="$"+element.price+".00 USD"
+         var o=document.createElement("p")
+         o.setAttribute("id","remov")
+         o.innerText="Remove"
+         o.addEventListener("click",function(){
+            myrem(element)
+         })
+         
+        f.append(i)
+        g.append(j,k,l,m)
+        h.append(n,o)
+        p.append(f,g,h)
+        r.append(s)
+        document.querySelector("#fl").append(p,r)
+
+    })
+    // getemailfromsignup
+    var userData = JSON.parse(localStorage.getItem("userData"))
+    
+    userData.forEach(function(el){
+        var email=document.querySelector("#cartp2")
+        email.innerText=el.email;
+  
+    })
+
+    console.log(userData)
+
+   var x=  array.reduce(function(acc,element){
+      return acc+element.price;
+    },0)
+
+    var v=document.createElement("div")
+
+    var s=document.createElement("p")
+    s.innerText="$"+x+".00 USD"
+    s.style.color="rgb(66, 62, 62)"
+    var t=document.createElement("p")
+    t.innerText="    "+"FREE"
+    t.style.marginTop="-8px"
+    t.style.color="rgb(66, 62, 62)"
+    var u=document.createElement("p")
+    u.innerText="$"+x+".00 USD"
+    u.style.fontWeight="bolder"
+    u.style.marginTop="-8px"
+    v.append(s,t,u)
+    document.querySelector("#fir3").append(v)
+
+    function myrem(element){   
+        array.splice(element,1)
+        localStorage.setItem("tocartpage",JSON.stringify(array));
+        window.location.reload()
+
+        if(array.length==0){
+            window.location.href="cartblank.html"
+        }
+    }
+    
+    
+</script>
