@@ -1,0 +1,262 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signup</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Oswald:wght@200&family=Roboto:wght@300&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+    #nav{
+            display: flex;
+            position: fixed;
+            width:100%;
+            height:8%;
+            background-color: white;
+            margin-top: -6.5%;
+        }
+        #items,#text{
+            display: flex;
+            height:40px;
+            width:44%;
+            font-size: 11px;
+            justify-content: space-around;
+            align-items: center;
+            font-family: 'Roboto', sans-serif;
+            margin-left: 2.5%;
+            margin-right: 2%;
+        }
+        #brand{
+            width:30%;
+            height:40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size:15px;
+            font-family: 'Roboto', sans-serif;
+        }
+        a{
+            text-decoration: none;
+            font-weight: bold;
+            color: rgb(100, 95, 95);
+        }
+      #email {
+       /*border: 1px solid grey;
+       border-color: grey;
+       width: 460px;
+       height:25px;
+       gap:50px;*/
+       height:30px;
+       width:470px;
+       gap:20px;
+       margin-top:-50px;
+      
+      }
+      
+      #btn {
+       padding: 10px;   
+       margin-top: 10px;
+       margin-bottom: 10px;
+       /*border-radius: 10px;*/
+       border: 1px solid grey;
+       background-color: black;
+       text-align: center;
+       gap:20px;
+       width:480px;
+       height:45px;
+       color:white;
+       font-size:15px;
+       font-weight:bold;
+   }
+   #form {
+      width: 500px;
+      height: 200px;
+      margin-bottom: 50px;
+      padding: 20px;
+      margin: 8%;
+      margin-left:350px;
+      /*box-shadow: rgba(68, 68, 99, 0.2) 0px 7px 29px 0px;*/
+      display: grid;
+      justify-content: center;
+      font-size: 20px;
+      justify-content: space-between;
+      /*border:1px solid black;*/
+      gap:10px;
+     
+      
+    
+    
+    }
+    h5 {
+        text-align: center;
+        margin-left:-290px;
+        margin-top:-2%; 
+        font-family: 'Roboto', sans-serif;
+        color:gray;
+        font-size: 15px;
+    }
+    h6{
+        margin-right: 210px;
+        font-size: 13px;
+        margin-top:20px;
+        font-family: 'Roboto', sans-serif;
+        color:gray;
+        margin-bottom:50px;
+    
+    }
+
+    #footer{
+            height:60px;
+            width:80%;
+            margin: auto;
+            margin-top:220px;
+            
+            
+            
+        }
+        #footer>div:nth-child(1){
+
+            height:50%;
+            width:100%;
+            /* border:1px solid blue; */
+            font-size: 11px;
+            font-family: 'Roboto', sans-serif;
+            display: flex;
+            justify-content: space-around;
+        }
+        #footer>div:nth-child(2){
+            height:50%;
+            width:100%;
+            display: flex;
+        }
+        #footer>div:nth-child(2)>div:nth-child(1){
+            height:50%;
+            width:60%;
+            margin-left: 14%;
+            /* border:1px solid blue; */
+            font-size: 9px;
+            font-family: 'Roboto', sans-serif;
+            display: flex;
+            justify-content: space-around;
+        }
+        #footer>div:nth-child(2)>div:nth-child(2){
+            height:50%;
+            width:20%;
+            /* border:1px solid blue; */
+            font-size: 13px;
+        }
+        .anc{
+            text-decoration: none;
+            color:black
+        }
+    
+    </style>
+</head>
+<body>
+
+    <div id="nav">
+        <div id="items">
+            <a class="a" href="mensPage.html">MENSWEAR</a>
+            <a class="a" href="womensPage.html">WOMENSWEAR</a>
+            <a class="a" href="">EVERYTHING ELSE</a>
+            <a class="a" href="">SEARCH</a>
+        </div>
+        <div id="brand">
+            <h1> <a href="mainPage.html">SSENSE</a> </h1>
+        </div>
+        <div id="text">
+            <a class="a" href="">ENGLISH</a>
+            <a class="a" href="signup.html">LOGIN</a>
+            <a class="a" href="">WISHLIST</a>
+            <a class="a" href="cartfull.html">SHOPPING BAG(0)</a>
+        </div>
+    </div>
+    <form id="form">
+       <h5>LOGIN OR CREATE ACCOUNT</h5>
+       <h6>Email address</h6>
+        <input id="email" type="text" placeholder="email">
+        <input id="btn"  type="submit" value="CONTINUE">
+        <br>
+    </form>
+
+    <div id="footer">
+        <div>
+            <a class="anc" href="">COUNTRY/REGION:INDIA</a>
+            <a class="anc" href="">NEWSLETTER SIGNUP</a>
+            <a class="anc" href="">CUSTOMER CARE</a>
+            <a class="anc" href="">LOCATION</a>
+            <a class="anc" href="">EDITORIAL ARCHIVE</a>
+            <a class="anc" href="">CAREERS</a>
+            <a class="anc" href="">AFFILIATES</a>
+            <a class="anc" href="">SITEMAP</a>
+        </div>
+        <div>
+            <div>
+             <a class="a" href="">@2022 ssense.com</a>
+             <a class="a" href="">Terms & Conditions</a>
+             <a class="a" href="">Privacy Policy</a>
+             <a class="a" href="">Cookies</a>
+             <a class="a" href="">Accesibility</a>
+            </div>                 
+            <div>
+                 <div>
+                     <a class="anc" href="#"><i class="fa fa-fw fa-facebook"></i></a>
+                     <a class="anc" href="#"><i class="fa fa-fw fa-twitter"></i></a>
+                     <a class="anc" href="#"><i class="fa fa-fw fa-instagram"></i></a>
+                     <a class="anc" href="#"><i class="fa fa-fw fa-youtube"></i></a>
+                 </div>
+    
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+
+<script>
+
+    var form = document.querySelector("form")
+
+   
+    form.addEventListener("submit",function(){
+        event.preventDefault();
+        var email =document.querySelector("#email").value;
+        if(email.length==0){
+            alert("please enter the email")
+            return
+        }
+        else{
+            obj={
+                email:email,
+            }
+      
+         var userData = JSON.parse(localStorage.getItem("userData"))||[]  ;
+        flag=false;
+        userData.forEach(ele => {
+            if(ele.email==email){
+                flag=true ;
+            }    
+        });
+        if(flag){
+            alert("email already exist");
+            window.location.href="mainPage.html"
+            return
+        }
+        userData.push(obj);
+        localStorage.setItem("userData",JSON.stringify(userData));
+        window.location.href="signin.html"
+         
+        }
+        
+       
+      
+
+      
+    })
+
+</script>
