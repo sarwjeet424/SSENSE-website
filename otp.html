@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="fotter.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+        #otpbox{
+            width: 300px;
+            height: 250px;
+            margin: auto;
+            background-color: rgb(224, 214, 214);
+            padding-top: 30px; 
+            margin-top: 40px;
+            padding-left: 30px;
+            border-radius: 5px;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            /* margin-bottom: 100px; */
+        }
+        
+        #footer{
+            margin-top: 190px;
+        }
+        body{
+            position: relative;
+        }
+        #nav{
+            margin-top: 20px;
+            position: sticky;
+        }
+        #hi{
+            height: 25px;
+            width: 80%;
+            margin: auto;
+        }
+        #he{
+            background-color: white;
+            color: black;
+            font-size: medium;
+            font-weight: 300;
+            border: 1px solid black;
+            width: 20%;
+            margin-left: 100px;
+            margin-top: 25px;
+            padding:7px 7px 7px 7px;
+            border-radius: 5px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #he:hover{
+            background-color: blue;
+            color: white;
+        }
+    </style>
+
+
+</head>
+<body>
+    
+    <!-- navbar section  -->
+
+    <div id="nav">
+        <div id="items">
+            <a href="">MENSWEAR</a>
+            <a href="">WOMENSWEAR</a>
+            <a href="">EVERYTHING ELSE</a>
+            <a href="">SEARCH</a>
+        </div>
+        <div id="brand">
+            <h1>SSENSE</h1>
+        </div>
+        <div id="text">
+            <a href="">ENGLISH</a>
+            <a href="">LOGIN</a>
+            <a href="">WISHLIST</a>
+            <a href="">SHOPPING BAG</a>
+        </div>
+    </div>
+<p></p>
+  <!-- otp section  -->
+
+  <div id="otpbox">
+      <h2>OTP Varification</h2>
+      <h3>Enter OTP sent to your mobile number +91******3699</h3>
+      <input id="hi" type="number" placeholder=" Enter OTP">
+      <div id="he">Procced</div>
+  </div>
+
+
+
+    <!-- footer section  -->
+
+    <div id="footer">
+        <div>
+            <a class="anc" href="">COUNTRY/REGION:INDIA</a>
+            <a class="anc" href="">NEWSLETTER SIGNUP</a>
+            <a class="anc" href="">CUSTOMER CARE</a>
+            <a class="anc" href="">LOCATION</a>
+            <a class="anc" href="">EDITORIAL ARCHIVE</a>
+            <a class="anc" href="">CAREERS</a>
+            <a class="anc" href="">AFFILIATES</a>
+            <a class="anc" href="">SITEMAP</a>
+        </div>
+        <div>
+            <div>
+             <a class="a" href="">@2022 ssense.com</a>
+             <a class="a" href="">Terms & Conditions</a>
+             <a class="a" href="">Privacy Policy</a>
+             <a class="a" href="">Cookies</a>
+             <a class="a" href="">Accesibility</a>
+            </div>                 
+            <div>
+                 <div>
+                     <a class="anc" href="#"><i class="fa fa-fw fa-facebook"></i></a>
+                     <a class="anc" href="#"><i class="fa fa-fw fa-twitter"></i></a>
+                     <a class="anc" href="#"><i class="fa fa-fw fa-instagram"></i></a>
+                     <a class="anc" href="#"><i class="fa fa-fw fa-youtube"></i></a>
+                 </div>
+    
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
+
+<script>
+   var x=  document.querySelector("#he").addEventListener("click",mypro)
+
+   function mypro(){
+       var a=document.querySelector("#hi").value
+       if(a=="7651"){
+           alert("Payment Successfull")
+           window.location.href="mainPage.html"
+       }
+       else{
+           alert("Invalid OTP")
+
+           
+       }
+   }
+</script>
