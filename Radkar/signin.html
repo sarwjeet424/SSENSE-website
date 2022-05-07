@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signin</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Oswald:wght@200&family=Roboto:wght@300&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+        #nav{
+            display: flex;
+            position: fixed;
+            width:100%;
+            height:8%;
+            background-color: white;
+            margin-top: -6.5%;
+        }
+        #items,#text{
+            display: flex;
+            height:40px;
+            width:44%;
+            font-size: 11px;
+            justify-content: space-around;
+            align-items: center;
+            font-family: 'Roboto', sans-serif;
+            margin-left: 2.5%;
+            margin-right: 2%;
+        }
+        #brand{
+            width:30%;
+            height:40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size:15px;
+            font-family: 'Roboto', sans-serif;
+        }
+        a{
+            text-decoration: none;
+            font-weight: bold;
+            color: rgb(100, 95, 95);
+        }
+
+        #form {
+            display: block;
+            /*border:1px solid Red;*/
+            height:400px;
+            width: 500px;
+            margin-bottom: -100px;
+            padding: 10px;
+            margin: 8%;
+            margin-left:350px;
+            justify-content: center;
+            font-size: 20px;
+            justify-content: space-between;
+            gap:20px;   
+        }
+        #email {
+            /*border: 1px solid grey;
+             border-color: grey;
+            width: 460px;
+            height:25px;
+            gap:50px;*/
+            height:38px;
+            width:492px;
+            gap:35px;
+            margin-top:-50px;
+
+      
+      }
+        #btn{
+            padding: 10px;   
+            margin-top: 10px;
+            margin-bottom: 10px;
+            border: 1px solid grey;
+            background-color: black;
+            text-align: center;
+            gap:0px;
+            width:500px;
+            height:45px;
+            color:white;
+            font-size:15px;
+            font-weight:bold;
+        }
+        #password{
+            padding: 10px;   
+            margin-top: -10px;
+            margin-bottom: 10px;
+            border: 1px solid grey;
+            text-align: left;
+            gap:20px;
+            width:478px;
+            height:21px;
+            color:black;
+            font-size:15px;
+            font-weight:bold;
+        }
+        h5 {
+            margin-bottom: 50px;
+            font-size: 18px;
+            gap:30px;
+            font-family: 'Roboto', sans-serif;
+            color:gray;
+        }
+        h6{
+            margin-top:14px;
+            font-size:14px;
+            margin-bottom:20px;
+            font-family: 'Roboto', sans-serif;
+            color:gray;
+        }
+        p{
+            font-size:14px;
+            margin-right:30px;
+            justify-content:space-between;
+            margin-bottom:10px;
+            
+        }
+        #footer{
+            height:60px;
+            width:80%;
+            margin: auto;
+            margin-top: 7%;
+        }
+        #footer>div:nth-child(1){
+            height:50%;
+            width:100%;
+            /* border:1px solid blue; */
+            font-size: 11px;
+            font-family: 'Roboto', sans-serif;
+            display: flex;
+            justify-content: space-around;
+        }
+        #footer>div:nth-child(2){
+            height:50%;
+            width:100%;
+            display: flex;
+        }
+        #footer>div:nth-child(2)>div:nth-child(1){
+            height:50%;
+            width:60%;
+            margin-left: 14%;
+            /* border:1px solid blue; */
+            font-size: 9px;
+            font-family: 'Roboto', sans-serif;
+            display: flex;
+            justify-content: space-around;
+        }
+        #footer>div:nth-child(2)>div:nth-child(2){
+            height:50%;
+            width:20%;
+            /* border:1px solid blue; */
+            font-size: 13px;
+        }
+        .anc{
+            text-decoration: none;
+            color:black
+        }
+        u{
+           display: flex;
+           font-family: 'Roboto', sans-serif;
+           font-size:15px;
+        }
+    </style>
+</head>
+<body>
+    <div id="nav">
+        <div id="items">
+            <a class="a" href="mensPage.html">MENSWEAR</a>
+            <a class="a" href="womensPage.html">WOMENSWEAR</a>
+            <a class="a" href="">EVERYTHING ELSE</a>
+            <a class="a" href="">SEARCH</a>
+        </div>
+        <div id="brand">
+            <h1> <a href="mainPage.html">SSENSE</a> </h1>
+        </div>
+        <div id="text">
+            <a class="a" href="">ENGLISH</a>
+            <a class="a" href="signup.html">LOGIN</a>
+            <a class="a" href="">WISHLIST</a>
+            <a class="a" href="cartfull.html">SHOPPING BAG(0)</a>
+        </div>
+    </div>
+   <form id="form">
+       
+       <h5>LOGIN</h5>
+      
+       <h6>Email address</h6>
+       <input id="email" type="text" placeholder="email">
+       <h6>Password</h6>
+       <input id="password" type="text" >
+       <br>
+       <input id="btn"  type="submit" value="CONTINUE">
+       <br>
+       <u> <p>Forgot Your Password? <p> Not Your Email?</p></u>
+        <u>  </u> 
+
+    </form>
+    <div id="footer">
+        <div>
+            <a class="anc" href="">COUNTRY/REGION:INDIA</a>
+            <a class="anc" href="">NEWSLETTER SIGNUP</a>
+            <a class="anc" href="">CUSTOMER CARE</a>
+            <a class="anc" href="">LOCATION</a>
+            <a class="anc" href="">EDITORIAL ARCHIVE</a>
+            <a class="anc" href="">CAREERS</a>
+            <a class="anc" href="">AFFILIATES</a>
+            <a class="anc" href="">SITEMAP</a>
+        </div>
+        <div>
+            <div>
+             <a class="a" href="">@2022 ssense.com</a>
+             <a class="a" href="">Terms & Conditions</a>
+             <a class="a" href="">Privacy Policy</a>
+             <a class="a" href="">Cookies</a>
+             <a class="a" href="">Accesibility</a>
+            </div>                 
+            <div>
+                 <div>
+                     <a class="anc" href="#"><i class="fa fa-fw fa-facebook"></i></a>
+                     <a class="anc" href="#"><i class="fa fa-fw fa-twitter"></i></a>
+                     <a class="anc" href="#"><i class="fa fa-fw fa-instagram"></i></a>
+                     <a class="anc" href="#"><i class="fa fa-fw fa-youtube"></i></a>
+                 </div>
+    
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+   
+    var form = document.querySelector("form")
+    form.addEventListener("submit",function(){
+        event.preventDefault();
+        var email=document.querySelector("#email").value;
+        var password =document.querySelector("#password").value;
+        if(email.length==0){
+            alert("please enter the email");
+            return
+        }
+       else if(password.length==0)
+        {
+            alert("please enter the password");
+            return;
+        }
+        else
+        {
+            var obj={
+                "email":email,
+                "password":password,
+            }
+            var userData = JSON.parse(localStorage.getItem("userData")) ;
+            flag=false;
+        userData.forEach(ele => {
+            if(ele.email==email){
+                flag=true;
+                alert("logged in successfully")
+                window.location.href="mainpageafterlogin.html"
+            }    
+        });
+        if(!flag){
+            alert("wrong credential");
+            return
+        }
+        }
+        // localStorage.setItem("userData",JSON.stringify(userData))
+    })
+
+
+
+</script>
+</html>
