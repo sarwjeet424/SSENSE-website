@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>main_page</title>
+    <title>Document</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Oswald:wght@200&family=Roboto:wght@300&display=swap" rel="stylesheet">
@@ -19,7 +19,7 @@
             display: flex;
             position: fixed;
             width:100%;
-            height:10%;
+            height:13%;
             background-color: white;
             margin-top: -2.5%;
         }
@@ -59,7 +59,7 @@
             /* border:0.5px solid black; */
             margin-top: 2.5%;
         }
-        div>img{
+        div>a>img{
             height:100%;
             width:100%
         }
@@ -83,9 +83,9 @@
             height: 7%;
             width:100%;
             /* border:0.5px solid blue; */
-            font-size: 20px;
+            font-size: 19px;
             margin-top: -4%;
-            color:rgb(87, 84, 84)
+            color:rgb(150, 143, 143)
            
         }
         .one>div:nth-child(2)>div:nth-child(1){
@@ -98,10 +98,11 @@
             height:100%;
             width:78%;
             /* border:0.5px solid red; */
-            font-size: 22px;
+            font-size: 20px;
             font-weight: 500;
             margin-top: -2.5%;
             margin-left: 6%;
+            color: gray;
             font-family: 'Roboto', sans-serif;
         }
         #container2{
@@ -110,7 +111,7 @@
             justify-content: space-between;
             width:91%;
             margin:auto;
-            margin-top: 2.5%;
+            margin-top: 4.5%;
         }
         .two{
             height:100%;
@@ -472,6 +473,32 @@
             text-decoration: none;
             color:black
         }
+        .gap{
+            margin-top: 6.5%;
+        }
+        .info{
+            text-decoration: none;
+            color:black
+        }
+        .wrinfo{
+            color: rgb(79, 76, 76);
+            text-decoration: none;
+        }
+        .one>div>img{
+            height: 100%;
+            width: 100%;
+        }
+        .two>div>img{
+            height:100%;
+            width: 100%;
+        }
+        #none{
+            border: 0px;
+            color: gray ;
+            font-size: 12px;
+            font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+        }
     </style>
 </head>
 <body>
@@ -486,70 +513,77 @@
             <h1>SSENSE</h1>
         </div>
         <div id="text">
-            <a href="">ENGLISH</a>
-           <select  onchange="logout()">
-           <option >ACCOUNT</option>
-           <option value="logout" >LOGOUT</option>
-        </select>
-            <a class="a" href="wishlist.html">WISHLIST</a>
+            <a class="a" href="">ENGLISH</a>
+            <select id="none" onchange="logout()">
+                <option >ACCOUNT</option>
+                <option value="logout" >LOGOUT</option>
+             </select>
+            <a class="a" href="">WISHLIST</a>
             <a class="a" href="cartfull.html">SHOPPING BAG(0)</a>
         </div>
     </div>
 
    <div id="container1">
-       <div class="one">
+    <div class="one">
+        <div>
+            <a class="info" href="1.html"><img src="https://res.cloudinary.com/ssenseweb/image/upload/w_768,q_90,f_auto,dpr_auto/v1651505210/nbxirpeefqovsgmjyvbx.jpg" alt="img"/></a>  
+        </div>
+        <div>
+            <div><a class="wrinfo" href="1.html"><p>Market</p></a></div>
             <div>
-                <img src="https://res.cloudinary.com/ssenseweb/image/upload/w_768,q_90,f_auto,dpr_auto/v1651080120/xzrxkdrws3ypmtlw997z.jpg" alt="img"/>
+                <a class="info" href="1.html"><p>LA STORY: LEAVING RECORDS AND MUSIC FOR LIFE SUPPORT</p></a></div>
+        </div>
+        <div>
+            <a class="wrinfo" href="1.html"><p class="gap">
+                The indie label is an incubator for fresh ideas about jazz, electronic, and ambient music.</p></a></div>
+
+        <!-- <a class="info" href="2.html"> -->
+        </div>
+            <div class="one">
+                <div>
+                    <a class="info" href="2.html"><img src="https://res.cloudinary.com/ssenseweb/image/upload/w_768,q_90,f_auto,dpr_auto/v1651080120/xzrxkdrws3ypmtlw997z.jpg" alt="img"/></a> 
+                </div>
+                <div>
+                    <div><a class="wrinfo" href="2.html"><p>Market</p></a></div>
+                    <div><a class="info" href="2.html"><p>OUR SECRET LIVES THROUGH OBJECTS</p></a></div>
+                </div>
+                <div><a class="wrinfo" href="2.html"><p>A Visual Catalog of Everything Else</p></a></div>
             </div>
-            <div>
-                <div><p>Fashion</p></div>
-                <div><p>Our Secret Lives Through Objects</p></div>
-            </div>
-            <div><p>A Visual Catalog Of Everything Else</p></div>
-       </div>
-       <div class="one">
-            <div>
-                <img src="https://res.cloudinary.com/ssenseweb/image/upload/w_1024,q_90,f_auto,dpr_auto/v1650653292/uejok9zomnxkplf2b9go.jpg" alt="img"/>
-            </div>
-            <div>
-                <div><p>Market</p></div>
-                <div><p>POCKETS, PLEASE!</p></div>
-            </div>
-            <div><p>With Lemaire, Dries Van Noten, and Pushbutton</p></div>
-       </div>
-   </div>
+        </div>
+   
    <div id="container2">
             <div class="two">
                 <div>
-                    <img src="https://res.cloudinary.com/ssenseweb/image/upload/w_480,q_90,f_auto,dpr_auto/v1650377394/ha1cgclezmw9lz2etg2r.jpg" alt="img"/>
+                    <a class="info" href="3.html"><img src="https://res.cloudinary.com/ssenseweb/image/upload/w_480,q_90,f_auto,dpr_auto/v1650653324/mr5ithrhc6yzygfjfkn0.jpg" alt="img"/></a>
                 </div>
                 <div>
-                    <div><p>Recent</p></div>
-                    <div><p>HAIR AND HIGHER POWER WITH JAWARA WAUCHOPE</p></div>
+                    <div><a class="wrinfo" href="3.html"><p>Recent</p></a></div>
+                    <div><a class="info" href="3.html"><p>Pockets Please</p></a></div>
                 </div>
-                <div><p>Fashion | Apr 21</p></div>
+                <div><a class="wrinfo" href="3.html"><p class="para">Market | April 25</p></a></div>
+            </div>
+            <div class="two">
+                <div>
+                    <a class="info" href="4.html"><img src="https://res.cloudinary.com/ssenseweb/image/upload/w_480,q_90,f_auto,dpr_auto/v1650377394/ha1cgclezmw9lz2etg2r.jpg" alt="img"/></a>
+                </div>
+                <div>
+                    <div><a class="wrinfo" href="4.html"><p>Recent</p></a></div>
+                    <div><a class="info" href="4.html"><p>HAIR AND HIGHER POWER WITH JAWARA WAUCHOPE</p></a>
+                </div>
+                </div>
+                <div><a class="wrinfo" href="4.html"><p>Fashion | Apr 21</p></div></a>
         </div>
         <div class="two">
                 <div>
-                    <img src="https://res.cloudinary.com/ssenseweb/image/upload/w_480,q_90,f_auto,dpr_auto/v1649855761/ppbhaz8aoqykgmmxcv1e.jpg" alt="img"/>
+                    <a class="info" href="5.html"><img src="https://res.cloudinary.com/ssenseweb/image/upload/w_480,q_90,f_auto,dpr_auto/v1649855761/ppbhaz8aoqykgmmxcv1e.jpg" alt="img"/></a>
                 </div>
                 <div>
-                    <div><p>Recent</p></div>
-                    <div><p>THE MOON IS LATE</p></div>
+                    <div><a class="wrinfo" href="5.html"><p>Recent</p></a></div>
+                    <div><a class="info" href="5.html"><p>THE MOON IS LATE</p></a></div>
                 </div>
-                <div><p class="para">Culture | April 18</p></div>
+                <div><a class="wrinfo" href="5.html"><p class="para">Culture | April 18</p></a></div>
         </div>
-        <div class="two">
-            <div>
-                <img src="https://res.cloudinary.com/ssenseweb/image/upload/w_480,q_90,f_auto,dpr_auto/v1649856548/gybenblahd5neaqr4auz.jpg" alt="img"/>
-            </div>
-            <div>
-                <div><p>Recent</p></div>
-                <div><p>FLOWER TIME</p></div>
-            </div>
-            <div><p class="para">Market | April 14</p></div>
-    </div>
-   </div>=
+   </div>
    <div id="container3">
         <div class="one">
                 <div>
@@ -559,7 +593,7 @@
                     <div><p>Featured</p></div>
                     <div><p>ACNE STUDIOS</p></div>
                 </div>
-                <div><button>SHOP WOMENSWEAR</button></p></div>
+                <div><button id="btn1">SHOP WOMENSWEAR</button></p></div>
         </div>
         <div class="one">
                 <div>
@@ -569,7 +603,7 @@
                     <div><p>Featured</p></div>
                     <div><p>ACNE STUDIOS</p></div>
                 </div>
-                <div><button>SHOP WOMENSWEAR</button></div>
+                <div><button id="btn2">SHOP WOMENSWEAR</button></div>
         </div>
    </div>
    <div id="container4">
@@ -726,7 +760,7 @@
                 <div><p>Featured</p></div>
                 <div><p>PANGAIA</p></div>
             </div>
-            <div><button>SHOP MENSWEAR</button></p></div>
+            <div><button id="btn5">SHOP MENSWEAR</button></p></div>
     </div>
     <div class="one">
             <div>
@@ -736,7 +770,7 @@
                 <div><p>Featured</p></div>
                 <div><p>PANGAIA</p></div>
             </div>
-            <div><button>SHOP MENSWEAR</button></div>
+            <div><button id="btn6">SHOP MENSWEAR</button></div>
         </div>
     </div>
     <p id="heading">BEST! PARTY! EVER!</p>
@@ -845,7 +879,7 @@
                 <div><p>Featured</p></div>
                 <div><p>KUSIKOHC</p></div>
             </div>
-            <div><button>SHOP WOMENSWEAR</button></p></div>
+            <div><button id="btn4">SHOP WOMENSWEAR</button></p></div>
     </div>
     <div class="one">
             <div>
@@ -855,7 +889,7 @@
                 <div><p>Featured</p></div>
                 <div><p>ANNA CASTELLANO</p></div>
             </div>
-            <div><button>SHOP WOMENSWEAR</button></div>
+            <div><button id="btn3">SHOP WOMENSWEAR</button></div>
         </div>
     </div>
     <div id="container2">
@@ -927,6 +961,37 @@
 </body>
 </html>
 <script>
+     var btn = document.querySelector("#btn1").addEventListener("click",function(event){
+        event.preventDefault()
+        // console.log("hiiii")
+        window.location.href="womensPage.html"
+        
+    })
+    var btn = document.querySelector("#btn2").addEventListener("click",function(event){
+        event.preventDefault()
+        // console.log("hiiii")
+        window.location.href="womensPage.html"
+    })
+    var btn = document.querySelector("#btn3").addEventListener("click",function(event){
+        event.preventDefault()
+        // console.log("hiiii")
+        window.location.href="womensPage.html"
+    })
+    var btn = document.querySelector("#btn4").addEventListener("click",function(event){
+        event.preventDefault()
+        // console.log("hiiii")
+        window.location.href="womensPage.html"
+    })
+    var btn = document.querySelector("#btn5").addEventListener("click",function(event){
+        event.preventDefault()
+        // console.log("hiiii")
+        window.location.href="mensPage.html"
+    })
+    var btn = document.querySelector("#btn6").addEventListener("click",function(event){
+        event.preventDefault()
+        // console.log("hiiii")
+        window.location.href="mensPage.html"
+    })
     function logout(){
         alert("logged out Successfully")
         window.location.href="mainPage.html"
