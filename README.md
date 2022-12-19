@@ -14,7 +14,7 @@ This project is deployed on netlify here - [Ssense Clone](https://ssense-clone-m
 ## Team Members
 
 - [@Sarwajeet](https://github.com/Kunal-Ladhani)
-- [@Shreeshar-Hakke](https://github.com/hena1019)
+- [@Shreedhar-Hakke](https://github.com/hena1019)
 - [@Divyanka-Rai](https://github.com/DivyankaRai)
 - [@Arjun-Yadav](https://github.com/lalitk1997)
 
