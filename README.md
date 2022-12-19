@@ -4,19 +4,19 @@ Ssense (https://www.ssense.com/en-in) is a multi-brand retailer based in Montrea
 
 ## Deployment
 
-This project is deployed on netlify here - [Ssense Clone](https://ssense-clone-masai.netlify.app/)
+This project is deployed on netlify here - [Ssense Clone](https://admirable-tanuki-3e239e.netlify.app/)
 
 ## Authors
 
-- [@Sarwajeet](https://github.com/Kunal-Ladhani)
+- [@Sarwajeet](https://github.com/sarwjeet424)
 
 
 ## Team Members
 
-- [@Sarwajeet](https://github.com/Kunal-Ladhani)
-- [@Shreedhar-Hakke](https://github.com/hena1019)
+- [@Sarwajeet](https://github.com/sarwjeet424)
+- [@Shreedhar-Hakke](https://github.com/Shridhar1998)
 - [@Divyanka-Rai](https://github.com/DivyankaRai)
-- [@Arjun-Yadav](https://github.com/lalitk1997)
+- [@Arjun-Yadav](https://github.com/yadavarjun182)
 
 # Description -
 
