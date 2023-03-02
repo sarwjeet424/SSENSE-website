@@ -8,12 +8,12 @@ This project is deployed on netlify here - [Ssense Clone](https://admirable-tanu
 
 ## Authors
 
-- [@Sarwajeet](https://github.com/sarwjeet424)
+- [@Sarwjeet](https://github.com/sarwjeet424)
 
 
 ## Team Members
 
-- [@Sarwajeet](https://github.com/sarwjeet424)
+- [@Sarwjeet](https://github.com/sarwjeet424)
 - [@Shreedhar-Hakke](https://github.com/Shridhar1998)
 - [@Divyanka-Rai](https://github.com/DivyankaRai)
 - [@Arjun-Yadav](https://github.com/yadavarjun182)
